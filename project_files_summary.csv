@@ -1,0 +1,16 @@
+File Name,Type,Description,Key Features,Size (approx)
+streamlit_app.py,Python Script,Main Streamlit web application with all features,"Multi-tab UI, File upload, Interactive visualizations, Clustering, Sentiment analysis",21 KB
+requirements.txt,Configuration,Python package dependencies,"Streamlit, Pandas, Scikit-learn, Plotly, NLTK, Gemini API",0.3 KB
+README.md,Documentation,Comprehensive project documentation and guide,"Installation, Usage, Architecture, Deployment, Tech stack",11 KB
+Dockerfile,Docker,Docker containerization configuration,"Python 3.9, Automated NLTK download, Port 8501",0.6 KB
+.dockerignore,Docker,Files to exclude from Docker build,"Excludes cache, env, data files, notebooks",0.4 KB
+.env.example,Configuration,Template for environment variables,"API keys, App settings, Data paths, Model parameters",0.3 KB
+data_processing.py,Python Module,Data cleaning and preprocessing utilities,"Missing values, Duplicates, Outliers, Encoding, Scaling",6 KB
+clustering.py,Python Module,"Clustering algorithms (K-Means, DBSCAN, Hierarchical)","Optimal k detection, Elbow method, Silhouette score, PCA visualization",10 KB
+sentiment_analysis.py,Python Module,Sentiment analysis with VADER and TextBlob,"Text preprocessing, VADER, TextBlob, Keywords extraction",8 KB
+.gitignore,Git,Git version control ignore rules,"Python, IDE, OS, Data files, Models",1 KB
+LICENSE,Legal,MIT License for open source,Open source MIT license,1 KB
+CONTRIBUTING.md,Documentation,Contributing guidelines for collaborators,"Code style, Commit format, Testing, Documentation",5 KB
+setup.py,Python Package,Package setup for pip installation,"Package metadata, Dependencies, Entry points",1 KB
+PROJECT_STRUCTURE.md,Documentation,Complete project structure documentation,"Directory structure, Quick start, Module usage, Deployment",8 KB
+index.html (Web App),Web Application,Interactive HTML/CSS/JS web application,"Home, EDA, Processing, Clustering, Sentiment, Finder, Insights tabs",Generated
